@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Strict mode-lite for Bash
+# For details: http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -eo pipefail
+IFS=$'\n\t'
+
 dir="$(dirname "$0")"
 
 # Imports following functions (used to load config file):
