@@ -5,12 +5,12 @@
 set -eo pipefail
 IFS=$'\n\t'
 
-dir="$(dirname "$0")"
+readonly DIR="$(dirname "$0")"
 
 # Imports following functions (used to load config file):
 #   - parse_yaml()
 #   - create_variables()
-. "${dir}/yaml.sh"
+. "${DIR}/yaml.sh"
 
 # Method that logs to stderr and exits.
 err() {
