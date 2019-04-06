@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+dir="$(dirname "$0")"
+
 # Imports following functions (used to load config file):
 #   - parse_yaml()
 #   - create_variables()
-. ./yaml.sh
+. "${dir}/yaml.sh"
 
 # Method that logs to stderr and exits.
 err() {
