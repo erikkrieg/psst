@@ -70,5 +70,5 @@ done
 # Execute command if provided.
 if [ ! ${#exec[@]} -eq 0 ]; then
   echo "Running: ${exec[*]}"
-  exec ${exec[*]}
+  eval ${exec[*]}
 fi
