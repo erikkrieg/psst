@@ -1,5 +1,10 @@
 # psst
 
+Potential alternative names:
+- Gossip
+- Envy
+- Pry
+
 > [A twelve-factor app] requires strict separation of config from code.
 _[The Twelve-Factor App](https://12factor.net/config)_
 
