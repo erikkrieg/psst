@@ -5,10 +5,11 @@ Potential alternative names:
 - Envy
 - Pry
 
-> [A twelve-factor app] requires strict separation of config from code.
-_[The Twelve-Factor App](https://12factor.net/config)_
-
 A light-weight Bash script that provides a flexible interface for secure and scalable configuration management.
+
+> [A twelve-factor app] requires strict separation of config from code.
+
+_[The Twelve-Factor App](https://12factor.net/config)_
 
 ## Table of Contents
 - [Installation](#installation)
